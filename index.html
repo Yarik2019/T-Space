@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-Space</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header section-container">
+      <div class="header-block">
+        <a href="#" class="header-left">
+          <img class="left-arrow" src="./images//left_arrow.svg" alt="" />
+          <p class="message-number"><span>4</span></p>
+        </a>
+        <div class="header-info">
+          <div class="space-title">
+            <h1 class="info-title">T-Space</h1>
+            <img class="img-check" src="./images/check.svg" alt="" />
+          </div>
+          <p class="info-text">бот</p>
+        </div>
+        <a href="#">
+          <img class="img-logo" src="./images/logo.svg" alt="logo" />
+        </a>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="main section-container">
+      <div class="main-container">
+        <div class="chat-block-date">
+          <p class="chat-date">Сьогодні</p>
+        </div>
+        <div id="chat-messages" class="chat-messages"></div>
+        <div id="chat-input" class="chat-input"></div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer section-container">
+      <form action="" class="form-chat">
+        <button type="button" class="btn-clip">
+          <img src="./images//clip.svg" class="img-clip" alt="" />
+        </button>
+        <div class="block-input">
+          <input
+            type="text"
+            class="input-message"
+            name="message"
+            placeholder="Повідомлення"
+          />
+          <button type="button" class="btn-sticker">
+            <img src="./images//sticker.svg" alt="" class="img-sticker" />
+          </button>
+        </div>
+        <button type="button" class="btn-microphone">
+          <img src="./images//microphone.svg" class="img-microphone" alt="" />
+        </button>
+      </form>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
