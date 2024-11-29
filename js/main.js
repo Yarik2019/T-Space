@@ -65,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     chatMessages.appendChild(messageContainer);
-    // chatMessages.scrollTop = chatMessages.scrollHeight;
   }
 
   function renderQuestion() {
