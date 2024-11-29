@@ -134,8 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = Object.fromEntries(formData.entries());
       window.localStorage.setItem("form-data", JSON.stringify(data, null, 2));
 
-      // window.location.href = "./T-Space/success.html";
-      window.location.href = "./T-Space/success.html";
+      window.location.href = "./success.html";
     });
     function errorMessageForm(firstName, lastName, email, phone) {
       const errors = [];
